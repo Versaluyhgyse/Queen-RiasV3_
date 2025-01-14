@@ -1,13 +1,13 @@
 require("dotenv").config(); // Load environment variables
 
 module.exports = {
-    prefix: process.env.PREFIX || ".", // Command prefix
+    prefix: process.env.PREFIX || "*", // Command prefix
 
-    ownerName: process.env.OWNER_NAME || "Toxxic-Boy", // Owner name
+    ownerName: process.env.OWNER_NAME || "1verse", // Owner name
 
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414", // Your WhatsApp number
+    ownerNumber: process.env.OWNER_NUMBER || "2349026472453", // Your WhatsApp number
 
-    mode: process.env.MODE || "public", // Bot mode: 'public' or 'private'
+    mode: process.env.MODE || "private", // Bot mode: 'public' or 'private'
 
     region: process.env.REGION || "Nigeria", // Region
 
@@ -19,13 +19,13 @@ module.exports = {
 
     timeZone: process.env.TIME_ZONE || "Africa/Lagos", // Time zone
 
-    presenceStatus: process.env.PRESENCE_STATUS || "available", // Bot presence status
+    presenceStatus: process.env.PRESENCE_STATUS || "typing", // Bot presence status
 
-    autoRead: process.env.AUTO_READ === "true", // Auto-read messages (true or false)
+    autoRead: process.env.AUTO_READ === "false", // Auto-read messages (true or false)
 
-    autoViewStatus: process.env.AUTO_VIEW_STATUS === "true", // Auto-view statuses (true or false)
+    autoViewStatus: process.env.AUTO_VIEW_STATUS === "false", // Auto-view statuses (true or false)
 
-    autoReact: process.env.AUTO_REACT === "true", // Auto-react (true or false)
+    autoReact: process.env.AUTO_REACT === "false", // Auto-react (true or false)
 
     sessionId: process.env.SESSION_ID || "", // Add Your Session ID here
 
